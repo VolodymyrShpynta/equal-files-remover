@@ -20,7 +20,7 @@ public class EqualFilesRemover {
     private static int removedFilesNumber = 0;
 
     public static void main(String[] args) {
-        String rootFolderPath = "G:\\Backup of Disc E\\PHOTOS\\";
+        String rootFolderPath = "G:/Backup of Disc E/PHOTOS";
         Map<String, List<File>> groupedFilesByNameAndSize = groupFilesByNameAndSize(rootFolderPath);
         deleteEqualFiles(groupedFilesByNameAndSize);
 
